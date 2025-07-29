@@ -62,5 +62,6 @@ This is an interactive dashboard built in Power BI to analyze coffee shop transa
 ---
 
 ## 🖼️ Dashboard Preview
-![Overview](screenshots/10.png)
+![Overview](screenshots/Dashboard Overview.png)
+
 
