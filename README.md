@@ -59,9 +59,5 @@ This is an interactive dashboard built in Power BI to analyze coffee shop transa
 - **DAX** – For calculated columns and measures (KPIs)
 
 
----
-
-## 🖼️ Dashboard Preview
-![Overview](screenshots/Dashboard Overview.png)
 
 
