@@ -1,40 +1,66 @@
-# Coffee Sales Dashboard ☕
+# ☕ Coffee Sales Dashboard – Power BI Project
 
-This project is a Power BI dashboard designed to analyze and visualize coffee sales performance across various regions, product types, and customer segments. It helps uncover key business insights and supports decision-making for inventory, marketing, and sales strategy.
-
----
-
-## 🔧 Tools Used
-- Power BI
-- Excel (Data Cleaning & Transformation)
-- DAX (for calculated fields and KPIs)
+This is an interactive dashboard built in Power BI to analyze coffee shop transaction data. It provides insights into sales trends, top-performing products, and store-wise performance using real transaction-level data.
 
 ---
 
-## 📊 Key Features
+## 📦 Dataset Information
 
-- **KPIs**: Total Sales, Profit, Quantity Sold
-- **Regional Sales Trends**: Sales comparison by region and state
-- **Product Analysis**: Best-selling coffee products and categories
-- **Customer Insights**: Sales by segment and channel
-- **Time-based Trends**: Monthly and yearly sales performance
-- **Interactive Filters & Slicers**: View data by region, product, time, etc.
-
----
-
-## 📈 Insights Derived
-
-- Identified **top-performing regions** contributing the most revenue
-- Analyzed **low-performing product lines** to reduce loss
-- Spotted **seasonal trends** in coffee sales and customer demand
-- Helped in **targeting specific customer segments** for marketing
+- **Source File**: `Coffee Shop Sales.xlsx`
+- **Rows**: 149,116
+- **Columns**:
+  - Transaction ID, Date & Time
+  - Product details: Category, Type, Description
+  - Quantity sold, Unit price
+  - Store ID and Location
 
 ---
 
-## 🖼️ Screenshots
+## 📊 Dashboard Highlights
 
-_Add dashboard screenshots here for a visual preview (save as `screenshots/dashboard1.png`, `dashboard2.png`, etc.)_
+- **KPIs**:
+  - Total Sales
+  - Total Orders
+  - Total Quantity Sold
 
-```markdown
-![Sales Overview](screenshots/dashboard1.png)
-![Product Performance](screenshots/dashboard2.png)
+- **Visualizations**:
+  - Sales trends over time (daily/monthly)
+  - Top 10 best-selling product types
+  - Store-wise revenue and quantity sold
+  - Product category breakdown (Coffee, Tea, Chocolate, etc.)
+  - Sales by Weekday/Weekend
+  - Heatmaps and bar charts for easy interpretation
+  -  **Month-over-Month Comparison**:
+    - Automatically compares **current month sales** with **previous month**
+    - Displays **percentage increase/decrease**
+    - For first month (e.g., January), shows `inf%` due to no prior data
+
+
+- **Interactivity**:
+  - Date range slicers
+  - Filters by store location, product category, and product type
+
+---
+
+## 🔍 Business Insights
+
+- **Hell's kitchen** had the highest number of transactions.
+- **Barista Espresso** and **Brewed Chai tea** were among the top-selling product types.
+- Peak sales hours occurred in the **morning**, supporting strong breakfast-time footfall.
+- **Drinking Chocolate** had fewer transactions but higher unit price.
+- Seasonal trends could be seen in product category preferences.
+
+---
+
+## 🧰 Tools Used
+
+- **Power BI** – Dashboard creation and data visualization
+- **Microsoft Excel** – Raw data processing
+- **DAX** – For calculated columns and measures (KPIs)
+
+
+---
+
+## 🖼️ Dashboard Preview
+![Overview](screenshots/10.png)
+
